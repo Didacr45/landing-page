@@ -47,5 +47,34 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+.product-description{
+    font-size:large;
+    color: gray;
+    margin-bottom: 75px;
+}
+
+.cta-button{
+    background-color:greenyellow ;
+    color: white;
+    border-radius: 15px;
+}
+
+.cta-button:hover{
+    color: blue;
+}
+
+.main-footer{
+    background-color:red;
+    padding-top: 20px;
+    padding-left: 35px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.main-footer a:hover{
+    color:wheat;
 }
